@@ -138,7 +138,7 @@ class RecipeCard extends HTMLElement {
 		<img src="${data.imgSrc}"
 			alt="${data.imgAlt}">
 		<p class="title">
-			<a href="${data.titleLnk}">${data.Txt}</a>
+			<a href="${data.titleLnk}">${data.titleTxt}</a>
 		</p>
 		<p class="organization">${data.organization}</p>
 		<div class="rating">
@@ -148,7 +148,7 @@ class RecipeCard extends HTMLElement {
 		</div>
 		<time>${data.lengthTime}</time>
 		<p class="ingredients">
-			${data.ingreditents}
+			${data.ingredients}
 		</p>
 		`;
 	}
